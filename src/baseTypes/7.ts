@@ -14,6 +14,5 @@ enum dayOfWeek {
 }
 
 function isWeekend(day: dayOfWeek): boolean {
-  if (day === dayOfWeek.Saturday || day === dayOfWeek.Sunday) return true;
-  return false;
+  return day === dayOfWeek.Saturday || day === dayOfWeek.Sunday;
 }
